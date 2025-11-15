@@ -1,0 +1,24 @@
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Tmux temporary directories
+/tmp/
+
+# Backup files
+*.bak
+*.backup
+*-old
+
+# Log files
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Test files
+test_*.sh
