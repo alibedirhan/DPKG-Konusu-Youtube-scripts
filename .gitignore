@@ -6,11 +6,13 @@
 
 # Tmux temporary directories
 /tmp/
+*.pid
 
 # Backup files
 *.bak
 *.backup
 *-old
+*.orig
 
 # Log files
 *.log
@@ -19,6 +21,44 @@
 .vscode/
 .idea/
 *.sublime-*
+*.code-workspace
 
 # Test files
 test_*.sh
+debug_*.sh
+
+# User data
+.user_progress
+.quiz_results
+
+# System files
+Thumbs.db
+Desktop.ini
+
+# Archives
+*.tar.gz
+*.zip
+*.rar
+
+# Compiled files
+*.o
+*.so
+*.dylib
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Python (eğer gelecekte Python script eklenirse)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Node (eğer gelecekte Node.js eklentisi eklenirse)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
